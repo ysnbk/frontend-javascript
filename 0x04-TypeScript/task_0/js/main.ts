@@ -1,4 +1,4 @@
-interface  Student {
+interface Student {
   firstName: string;
   lastName: string;
   age: number;
@@ -23,8 +23,10 @@ const table = document.createElement("table")
 studentsList.forEach(student=>{
 const row = table.createElement("tr");
 const firstName = row.createElement("td");
-  firstName = student.firstName;
+  firstName.innerHTML = student.firstName;
   const location = row.createElement("td");
-  location = student.location;
-  
+  location.inerHTML = student.location;
+  row.append("firstName");
+  row.append("location");
+  table.append("row");
 })

@@ -4,7 +4,7 @@ namespace Subjects{
   }
   class Java extends Subject{
     getRequirements(): string{
-        return "Here is the list of requirements for React"
+        return "Here is the list of requirements for Java"
     }
     getAvailableTeacher(): string{
        if (this.teacher && this.teacher.firstName && this.teacher.experienceTeachingJava > 0) {

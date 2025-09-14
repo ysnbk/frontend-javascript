@@ -26,7 +26,7 @@ const firstName = row.createElement("td");
   firstName.innerHTML = student.firstName;
   const location = row.createElement("td");
   location.inerHTML = student.location;
-  row.append("firstName");
-  row.append("location");
-  table.append("row");
+  row.appendChild("firstName");
+  row.appendChild("location");
+  table.appendChild("row");
 })

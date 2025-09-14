@@ -1,9 +1,9 @@
 interface MajorCredits {
-    credits:number;
+    credits: number;
     brand:"major";
 }
 interface  MinorCredits {
-    credits:number;
+    credits: number;
     brand:"minor";
 }
 function sumMajorCredits(

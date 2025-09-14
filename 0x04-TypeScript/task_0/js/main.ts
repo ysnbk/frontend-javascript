@@ -16,3 +16,15 @@ const student2: Student = {
   age: 38,
   location: 'Barcelona'
 };
+const studentsList = [
+  student1,student2
+]
+const table = document.createElement("table")
+studentsList.forEach(student=>{
+const row = table.createElement("tr");
+const firstName = row.createElement("td");
+  firstName = student.firstName;
+  const location = row.createElement("td");
+  location = student.location;
+  
+})
